@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+.container{
+    margin: auto;
+    height: 450px;
+    width: 450px;
+    /* border-radius: 10px; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+h3{
+    position:absolute;
+    top: 1px;
+    left: 20px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: lightgreen;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.flash{
+    background-color: white;
+}
+.flashCl{
+    background-color: green;
+}
